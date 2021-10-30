@@ -1,4 +1,4 @@
-# PetShelter SpringBoot API with MySQL - Backend Bootcamp.
+# PetShelter SpringBoot API with MySQL + Docker - Backend Bootcamp.
 
 This document provides an example of a PetShelter REST API.
 
@@ -7,6 +7,15 @@ Main features:
 - Add/Get/ pets to shelters.
 - Add new pet food.
 - Add pet feed.
+
+# Docker-compose
+
+To be able to access your application using docker-compose, go to "src\main\resources" directory and then use the following comand below:
+
+```bash
+docker-compose up
+```
+Then you will see the application up and running.
 
 # CRUD Methods
 
